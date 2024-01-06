@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Amazon</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#">
+                <div class="logo"></div>
+            </a>
+            <div class="location">
+                <p class="deliver">あ届け先:</p>
+                <div class="icon-countryname">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>住所を変更する</p>
+                </div>
+            </div>
+            <div class="search-box">
+                <select id="All" class="select">
+                    <option value="All">すべて</option>
+                    <option value="All Departments">All Departments</option>
+                    <option value="Audible Audiobooks">Audible Audiobooks</option>
+                    <option value="Amazon Devices">Amazon Devices</option>
+                    <option value="Kindle Store">Kindle Store</option>
+                    <option value="Prime Video">Prime Video</option>
+                    <option value="Alexa Skills">Alexa Skills</option>
+                    <option value="Subscribe & Save">Subscribe & Save</option>
+                    <option value="Digital Music">Digital Music</option>
+                    <option value="Apps & Games">Apps & Games</option>
+                    <option value="Japanese Books">Japanese Books</option>
+                    <option value="English Books">English Books</option>
+                    <option value="Music">Music</option>
+                    <option value="Classical">Classical</option>
+                    <option value="Movies & TV">"Movies & TV</option>
+                    <option value="Computer & Video Games">Computer & Video Games</option>
+                    <option value="Software">Software</option>
+                    <option value="Computer & Accessories">Computer & Accessories</option>
+                    <option value="Electronics & Cameras">Electronics & Cameras</option>
+                    <option value="Stationery & Office Products">Stationery & Office Products</option>
+                    <option value="Kitchen & Houseware">Kitchen & Houseware</option>
+                    <option value="Pet Supplies">Pet Supplies</option>
+                    <option value="Health & Personal Care">Health & Personal Care</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Food & Beverage">Food & Beverage</option>
+                    <option value="Baby & Maternity">Baby & Maternity</option>
+                    <option value="Fashion">Fashion</option>
+                </select>
+                <input type="text" placeholder="要素 Amazon.co.jp" class="input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language">
+                <span><img src="assets/japanflag.png"></span>
+                <div class="lang-option">
+                    <div>EN</div>
+                    <span><i class="fa-solid fa-caret-down downicon"></i></span>
+                </div>
+            </div>
+            <div class="account">
+                <p class="hello">こんにちは,ログイン</p>
+                <div class="account-lists">
+                    <p>アカウント&リスト</p>
+                    <span><i class="fa-solid fa-caret-down Lists"></i></span>
+                </div>
+
+            </div>
+            <div class="order">
+                <p class="return">返品もこちら</p>
+                <p class="big-orders">注文履歴</p>
+            </div>
+            <div class="cart">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <p>カート</p>
+            </div>
+        </nav>
+
+        <div class="small-navbar">
+            <div class="nav-left">
+                <span><i class="fa-solid fa-bars"></i></span>
+                <p>All</p>
+            </div>
+            <div class="nav-fill">
+                <a href="#">Amazon ポイント: 残高を確認</a>
+                <a href="#">ヘルプ</a>
+                <a href="#">ランキング</a>
+                <a href="#">Amazon Basics</a>
+                <a href="#">タイムセール</a>
+                <a href="#">Prime Video</a>
+                <a href="#">ミュージック</a>
+                <a href="#">新着商品</a>
+                <a href="#">Prime</a>
+                <a href="#">Japanese Books</a>
+                <a href="#">Gift Ideas</a>
+            </div>
+            <div class="nav-right"></div>
+        </div>
+    </header>
+
+    <section class="hero section" id="hero">
+        <div class="swiper first-section ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background-image: url(assets/hero1.jpg);"></div>
+                <div class="swiper-slide slide" style="background-image: url(assets/hero2.jpg);"></div>
+                <div class="swiper-slide slide" style="background-image: url(assets/hero3.jpg);"></div>
+                <div class="swiper-slide slide" style="background-image: url(assets/hero4.jpg);"></div>
+                <div class="swiper-slide slide" style="background-image: url(assets/hero5.jpg);"></div>
+                <div class="swiper-slide slide" style="background-image: url(assets/hero6.jpg);"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="container">
+            <div class="box">
+                <div class="box-content">
+                    <h2>福袋</h2>
+                    <div class="image" style="background-image: url('assets/box1_image.jpg');"></div>
+                    <p><a href="#">今すぐチェック</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>最大10%還元※ポイントアップキャンペーン</h2>
+                    <div class="image" style="background-image: url('assets/box2_image.jpg');"></div>
+                    <p><a href="#">エントリー受付中1/2まで</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>注目のタイムセール</h2>
+                    <div class="image" style="background-image: url('assets/box3_image.jpg');"></div>
+                    <p><a href="#">タイムセールをもっと見る</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>ホリデーストア</h2>
+                    <div class="image" style="background-image: url('assets/box4_image.jpg');"></div>
+                    <p><a href="#">今すぐストアへ</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Kindle Unlimited 年末年始キャンペーン 3か月99円で読み放題！</h2>
+                    <div class="image" style="background-image: url('assets/box5_image.jpg');"></div>
+                    <p><a href="#">今すぐ体験</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>福袋</h2>
+                    <div class="image" style="background-image: url('assets/box6_image.jpg');"></div>
+                    <p><a href="#">今すぐチェック</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>福袋</h2>
+                    <div class="image" style="background-image: url('assets/box7_image.jpg');"></div>
+                    <p><a href="#">今すぐチェック</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>福袋</h2>
+                    <div class="image" style="background-image: url('assets/box8_image.jpg');"></div>
+                    <p><a href="#">今すぐチェック</a></p>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="category-container">
+                    <div class="category-title">
+                        <h2>カテゴリーから探す</h2>
+                        <p><a href="#">セール会場へ</a></p>
+                    </div>
+                    <div class="swiper category-contents">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide">
+                                <img src="assets/category11.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category5.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category6.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category7.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category8.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category9.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide slide">
+                                <img src="assets/category10.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-prev pre-button"></div>
+                        <div class="swiper-button-next next-button"></div>
+
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="longin">
+    <div class="login">
+        <div class="login-container">
+        <div class="login-contents">
+         <p class="customer">お客様へのおすすめ商品を表示</p>
+         <button>ログイン</button>
+         <p class="register">初めてのご利用ですか？<a href="#">新規登録はこちら</a></p>
+        </div>
+        </div>
+     </div>
+   </section>
+   <section class="top-page">
+    <a href="#"><button>トップへ戻る</button></a>
+   </section>
+   <section class="footer">
+    <div class="footer-container">
+        <div class="footer-contents">
+            <h2>Amazonについて</h2>
+            <a href="#">採用情報</a>
+            <a href="#">About Amazon</a>
+            <a href="#">Newsroom</a>
+            <a href="#">環境への取り組み</a>
+            <a href="#">社会貢献・地域活動</a>
+            <a href="#">Amazon Science</a>
+        </div>
+        <div class="footer-contents">
+            <h2>Amazonでビジネス</h2>
+            <a href="#">Amazonで売る</a>
+            <a href="#">ブランドの保護＆構築</a>
+            <a href="#">フルフィルメント by Amazon</a>
+            <a href="#">Amazonビジネスで法人販売</a>
+            <a href="#">Amazon Pay(決済サービス)</a>
+            <a href="#">アソシエイト（アフィリエイト）</a>
+            <a href="#">Amazonで広告掲載をする</a>
+            <a href="#">Amazonで出版</a>
+            <a href="#">› Amazon出品の詳細</a>
+        </div>
+        <div class="footer-contents">
+            <h2>Amazonでのお支払い</h2>
+            <a href="#">Amazonポイント</a>
+            <a href="#">Amazonギフトカード</a>
+            <a href="#">Amazon Mastercard</a>
+            <a href="#">パートナーポイントプログラム</a>
+            <a href="#">Amazonギフトカードチャージタイプ</a>
+            <a href="#">›すべての支払い方法を見る</a>
+        </div>
+        <div class="footer-contents">
+            <h2>ヘルプ＆ガイド</h2>
+            <a href="#">新型コロナウイルス関連</a>
+            <a href="#">配送料と配送情報</a>
+            <a href="#">Amazon プライム</a>
+            <a href="#">商品の返品・交換</a>
+            <a href="#">コンテンツと端末の管理</a>
+            <a href="#">価格について</a>
+            <a href="#">お客様サポート</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <a href="#"><img src="assets/amazon_logo.png" alt=""></a>
+        <p>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+    </div>
+   </section>
+
+    <!-- swiper js link -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- external js link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
